@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="112306093_HW8.css">
+</head>
+<body>
+    <h1>JS Calculator</h1>
+    <form id="calculatorForm">
+        <label for="number1">Number 1:</label>
+        <input type="number" id="number1" required>
+        
+        <label for="operator">Operator:</label>
+        <select id="operator" required>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        
+        <label for="number2">Number 2:</label>
+        <input type="number" id="number2" required>
+        
+        <button type="submit">Calculate</button>
+    </form>
+
+    <div id="resultDisplay">
+        <h2>Result: <span id="result">-</span></h2>
+    </div>
+
+    <script src="112306093_HW8.js"></script>
+</body>
+</html>
